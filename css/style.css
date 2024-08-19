@@ -812,7 +812,173 @@ footer {
   margin: 4px 0;
 }
 
+.block-plus{
+  margin-bottom: 60px;
+}
 
+.help-section{
+  background-color: #08151c;
+}
+
+.help-section__text{
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 125%;
+  background: linear-gradient(31deg, #1c76bc 0%, #fff 46.5%, #fbb042 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 117px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.arrow-main_block{
+  margin-right: 20px;
+}
+
+.features-section{
+  background-color: #08151c;
+}
+
+.features-section__item{
+  font-weight: 250;
+font-size: 30px;
+line-height: 100%;
+color: #fff;
+}
+
+.bn{
+  border: none;
+}
+
+.features-section__grid{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 20px; */
+  row-gap: 38px;
+  padding-bottom: 90px;
+}
+
+.request-block{
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 120%;
+  color: #fff;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #fff;
+}
+
+.review-section{
+  background-color: #08151c;
+}
+
+.review-section__title{
+  padding-top: 60px;
+  font-weight: 500;
+  padding-bottom: 50px;
+  font-size: 70px;
+  line-height: 171%;
+  background: linear-gradient(31deg, #fbb042 0%, #fff 47.44%, #1c76bc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.review-card__title{
+  font-weight: 500;
+font-size: 30px;
+line-height: 150%;
+color: #fff;
+margin-bottom: 37px;
+}
+.review-card__image-block{
+  height: 92px;
+  margin-bottom: 42px;
+}
+
+.review-card{
+  width: 363px;
+}
+
+.review-card__description{
+  font-weight: 250;
+font-size: 20px;
+line-height: 150%;
+color: #fff;
+}
+
+.review-section__cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.review-card__image{
+  object-fit: none;
+  margin-bottom: 45px;
+}
+
+.contact-section__title{
+  font-weight: 500;
+font-size: 70px;
+line-height: 114%;
+background: linear-gradient(31deg, #08151c 0%, #1c76bc 43.42%, #fbb042 85.5%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 100px;
+margin-bottom: 80px;
+}
+
+.contact-section__form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  width: 50%;
+
+}
+
+.contact-section__form{
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 687px;
+  gap: 22px;
+  align-items: flex-end;
+
+}
+
+.contact-section__label{
+  font-weight: 300;
+font-size: 30px;
+line-height: 117%;
+color: #08151c;
+}
+
+.contact-section__input{
+  height: 68px;
+  border-bottom: 1px solid;
+}
+
+
+.contact-section__textarea{
+  border-bottom: 1px solid;
+
+}
+.area-t {
+flex:1;
+}
+.area-t textarea{
+  margin: 0;
+flex:1;
+}
+
+.contact-section__button{
+  width: 20%;
+}
 @media (max-width: 768px) {
   .header__menu {
     display: none;
@@ -1046,5 +1212,76 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 123px;
+}
+
+.help-section__text {
+  font-size: 30px;
+
+}
+
+.features-section__grid {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* gap: 20px; */
+  row-gap: 15px;
+  padding-bottom: 50px;
+}
+
+.features-section__item {
+  font-weight: 250;
+  font-size: 21px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.request-block {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  color: #fff;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #fff;
+}
+
+.review-section__title {
+  padding-top: 30px;
+  font-weight: 500;
+  padding-bottom: 50px;
+  font-size: 30px;
+  line-height: 171%;
+  background: linear-gradient(31deg, #fbb042 0%, #fff 47.44%, #1c76bc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.review-section__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  gap: 50px;
+}
+
+.contact-section__form {
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.contact-section__button {
+  width: 100%;
+}
+
+.contact-section__form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  width: 100%;
 }
 }
