@@ -17,6 +17,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -620,7 +621,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  height: 495px;
+  height: 538px;
   width: 100%;
 }
 
