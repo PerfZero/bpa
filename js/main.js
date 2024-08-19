@@ -84,3 +84,13 @@ const swiper1 = new Swiper('.work-slider', {
     }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  const burgerButton = document.getElementById('burgerButton');
+  const menu = document.getElementById('menu');
+  const button = document.querySelector('.header__button');
+
+  burgerButton.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      button.classList.toggle('active');
+  });
+});

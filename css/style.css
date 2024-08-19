@@ -796,13 +796,51 @@ footer {
   margin-bottom: 73px;
 }
 
+.header__burger {
+  flex-direction: column;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  z-index: 999;
+}
+
+.burger-line {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px 0;
+}
+
+
 @media (max-width: 768px) {
   .header__menu {
     display: none;
   }
 
+  .header__menu.active {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    top: -19px;
+    padding-top: 13px;
+    background: #fff;
+    justify-content: center;
+  }
+  
+
+  .header__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.969vw;
+    position: absolute;
+}
   .container {
     max-width: 768px;
+    position: relative;
     width: 100%;
   }
 
@@ -816,8 +854,21 @@ footer {
     line-height: 175%;
     text-align: center;
     color: #08151c;
-    transition: 0.5s;
+    transition:0s ;
+
   }
+
+  .header__burger {
+    right: 14px;
+    top: 7px;
+    display: flex;
+    position: absolute;
+}
+
+
+.header__button.active {
+  visibility: hidden;
+}
 
   .content-icon {
     display: none;
